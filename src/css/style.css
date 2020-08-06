@@ -1,0 +1,50 @@
+body,
+input,
+textarea,
+select,
+option {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+.round_boxes {
+  background-color: #2b6997;
+}
+.title_note {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 70px;
+  color: #fff;
+  padding-top: 95px;
+}
+.boxes_wrapper {
+  display: flex;
+}
+.box__withcontents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box__withcontents img {
+  width: 288px;
+  height: 288px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 24px 47px 0px rgb(36 36 36);
+}
+.box__withcontents h4 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.box__withcontents p {
+  font-size: 14px;
+  margin: 0 100px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 100px;
+}
